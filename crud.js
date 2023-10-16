@@ -109,7 +109,7 @@ function remove(td){
      if(td){
          let textValue =td.textContent || td.innerHTML;
          if(textValue.toUpperCase().indexOf(filter)> -1){
-             tr[0].style.display= "";
+             tr[i].style.display= "";
 
          }
         else{
